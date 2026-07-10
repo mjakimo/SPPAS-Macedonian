@@ -6,10 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from g2p_macedonian import phonemize, phonemize_variants  # noqa: E402
 
-# non-lexical entries at the top of the dict, same convention as the
-# dictionaries shipped with SPPAS (silence, laughter, garbage, fillers).
-# The non-speech symbols only mean something once an acoustic model
-# defines them. Keep in sync with SPECIAL_WORDS in 04_validate_dict.py.
+
 SPECIAL_ENTRIES = [
     ("#", ["#"]),
     ("@@", ["@@"]),
