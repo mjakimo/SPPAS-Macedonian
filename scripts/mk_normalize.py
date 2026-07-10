@@ -2,17 +2,14 @@ from __future__ import annotations
 import re
 import unicodedata
 
-# Macedonian Cyrillic, 31 letters + the accented forms ѐ/ѝ (ѝ is a real
-# word, the clitic "to her").
+# Macedonian Cyrillic, 31 letters + the accented forms ѐ/ѝ (ѝ is a real word, the clitic "to her").
 MK_CYRILLIC_CHARS = set(
     "абвгдѓежзѕијклљмнњопрстќуфхцчџш"
     "АБВГДЃЕЖЗЅИЈКЛЉМНЊОПРСТЌУФХЦЧЏШ"
     "ѐЀѝЍ"
 )
 
-# Latin letters that look identical to Cyrillic ones and show up as
-# copy-paste contamination in scraped text. Lowercase 'k' left out on
-# purpose (not a reliable homoglyph in most fonts).
+# Latin letters that look identical to Cyrillic ones and show up as copy-paste contamination in scraped text..
 LATIN_TO_CYRILLIC_HOMOGLYPHS = {
     "A": "А", "a": "а",
     "B": "В",
