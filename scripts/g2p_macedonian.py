@@ -7,8 +7,7 @@ ALLOW_LOAN_ALLOPHONES = False  # (ŋ)/(w) — off, they'd need a conditioning ru
 
 
 # letter -> (IPA, X-SAMPA)
-# <л> is the dark /ɫ/ ("5"); clear [l] before е/и is an allophone and
-# only shows up in the pronunciation variants, not in the base mapping.
+# <л> is the dark /ɫ/ ("5"); clear [l] before е/и is an allophone and only shows up in the pronunciation variants, not in the base mapping.
 CONSONANTS = {
     "п": ("p", "p"),
     "б": ("b", "b"),
@@ -44,7 +43,7 @@ VOWELS = {
     "и": ("i", "i"),
     "о": ("ɔ", "O"),
     "у": ("u", "u"),
-    # accented forms map to the same phones (ѝ is the clitic "to her")
+    # accented forms map to the same phones (ѝ is the clitic "to her" for eg.)
     "ѐ": ("ɛ", "E"),
     "ѝ": ("i", "i"),
 }
@@ -170,6 +169,4 @@ if __name__ == "__main__":
         p = phonemize(w)
         vs = " | ".join(" ".join(v) for v in phonemize_variants(w))
         print(f"{p.word:<8} {p.ipa:<18} {vs}")
-    # known gap: syllabic /r/ (прст) is emitted as plain r; if syllabification
-    # needs the nucleus marked, that's a post-processing rule (see the
-    # phonological rules doc, R4)
+    # known gap: syllabic /r/ (прст) is emitted as plain r; if syllabification needs the nucleus marked, that's a post-processing rule...
