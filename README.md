@@ -2,8 +2,7 @@
 
 Word list, pronunciation dictionary and related files for Macedonian (mkd),
 built for use with [SPPAS](https://sppas.org). Made during my M1 internship
-at ATILF (CNRS), based on the phonological description in Jakimoski & Hutin,
-*Phonologie du macédonien*.
+at ATILF (CNRS), based on the phonological description in Mario Jakimoski, Mathilde Hutin: Phonologie du macédonien. 2026. ⟨hal-05667849⟩.
 
 The text data comes from the
 [LVSTCK macedonian-corpus-cleaned-dedup](https://huggingface.co/datasets/LVSTCK/macedonian-corpus-cleaned-dedup)
