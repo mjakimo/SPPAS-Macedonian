@@ -11,7 +11,7 @@ for ipa, xs in {**CONSONANTS, **VOWELS}.values():
 # devoiced finals + the clear-l variant phone
 EXPECTED_XSAMPA_PHONES |= {"p", "t", "c", "k", "f", "s", "ts", "tS", "l"}
 
-# non-lexical entries from 03_build_dict.py, skipped by the checks below
+# non-lexical entries from build_dict.py, skipped by the checks below
 SPECIAL_WORDS = {"#", "@@", "gb", "dummy", "еее", "ммм"}
 
 
