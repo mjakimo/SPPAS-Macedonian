@@ -40,7 +40,7 @@ and `resources/dict/` folders of your SPPAS install.
 
 ## What's missing
 
-- **Acoustic model** — so no forced alignment yet. This is sitll in the works and will be published very soon.
+- **Acoustic model**, so no forced alignment yet. This is sitll in the works and will be published very soon.
 
 
 ## Rebuilding from scratch
@@ -51,8 +51,6 @@ bash run_codes.sh
 
 Downloads the corpus (~several GB), tokenizes it (the intermediate file is
 ~16 GB), builds and validates everything. Takes around 30–40 minutes total.
-There's also a notebook version in `notebook/` if you want to look at the
-intermediate steps.
 
 If you only change the G2P, you can just need steps 03 and 04 (which will take only a few minutes):
 
