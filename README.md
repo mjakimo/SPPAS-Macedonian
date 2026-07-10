@@ -14,7 +14,7 @@ corpus (~1.4 billion tokens of web text).
 | file | what it is |
 |---|---|
 | `resources/vocab/mkd.vocab` | word list, 593,791 words, one per line |
-| `resources/dict/mkd.dict` | pronunciation dictionary (X-SAMPA), ~700k lines including variants |
+| `resources/dict/mkd.dict (zipped)` | pronunciation dictionary (X-SAMPA), ~700k lines including variants |
 | `resources/vocab/mkd.stp` | stopword list (177 words) |
 | `data/mkd_qa.csv (zipped)` | word / IPA / X-SAMPA table for manual review |
 | `data/word_freq.tsv` | word frequencies, for tuning the filters |
