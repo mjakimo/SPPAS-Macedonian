@@ -27,7 +27,7 @@ and `resources/dict/` folders of your SPPAS install.
   in the QA csv.
 - The lateral written `л` is encoded as dark /ɫ/ (X-SAMPA `5`). A clear-l
   variant before front vowels is included as an alternative pronunciation.
-- Word-final devoicing is applied (леб = `5 E p`), with the underlying
+- Word-final devoicing is applied (леб = `l E p`), with the underlying
   voiced form kept as a variant since devoicing doesn't happen before a
   voiced obstruent in connected speech.
 - The dictionary starts with the usual SPPAS special entries (silence `#`,
